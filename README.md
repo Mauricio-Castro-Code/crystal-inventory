@@ -4,7 +4,7 @@
 **Crystal Inventory System** is a **fully serverless inventory management system** designed for a real equipment rental business.  
 It leverages **AWS cloud services** to provide a scalable, cost-efficient, and low-maintenance solution with a lightweight static frontend.
 
-🔗 Live Website: https://alquiladoracrystal.com/](http://crystal-inventario.s3-website-us-east-1.amazonaws.com
+🔗 Live Website: http://crystal-inventario.s3-website-us-east-1.amazonaws.com/
 ---
 
 ## ✨ Project Overview
