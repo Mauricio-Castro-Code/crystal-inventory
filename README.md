@@ -1,29 +1,97 @@
-# Crystal Inventory System
+# ☁️ Crystal Inventory System  
+### 📦 Serverless Inventory Management Platform
 
-A fully serverless inventory management system designed for rental businesses. Built using AWS cloud services and a lightweight static frontend.
+**Crystal Inventory System** is a **fully serverless inventory management system** designed for a real equipment rental business.  
+It leverages **AWS cloud services** to provide a scalable, cost-efficient, and low-maintenance solution with a lightweight static frontend.
 
-## 🛠️ Features
+---
 
-- Add, edit, delete, and search inventory items
-- Category filtering and live updates
-- Responsive web interface built with HTML, CSS, and Bootstrap
-- Serverless backend using AWS Lambda and API Gateway
-- NoSQL database using Amazon DynamoDB
-- Static website hosted on Amazon S3
-- Secure role-based access control with IAM
+## ✨ Project Overview
 
-## 🚀 Technologies Used
+This project was built to solve a real operational need: **managing rental inventory efficiently without maintaining servers**.
 
-| Layer       | Technology                      |
-|-------------|----------------------------------|
-| Frontend    | HTML5, CSS3, JavaScript, Bootstrap 5 |
-| Backend     | AWS Lambda (Node.js), API Gateway |
-| Database    | Amazon DynamoDB                 |
-| Hosting     | Amazon S3 (Static Web Hosting)  |
-| Security    | IAM (Identity and Access Management) |
+The system allows administrators to manage inventory items through a responsive web interface while relying entirely on **serverless cloud infrastructure**.
+
+---
+
+## 🛠️ Key Features
+
+- ➕ Add, ✏️ edit, 🗑️ delete, and 🔍 search inventory items
+- 🗂️ Category-based filtering
+- ⚡ Live updates without page reload
+- 📱 Responsive web interface
+- ☁️ Fully serverless backend (no servers to manage)
+- 🔐 Secure access control using AWS IAM
+- 💾 Persistent data storage with DynamoDB
+- 🌍 Static website hosting with Amazon S3
+
+---
+
+## 🧰 Tech Stack
+
+### 🌐 Frontend
+<p>
+  <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/HTML.svg" width="40"/>
+  <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/CSS.svg" width="40"/>
+  <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/JavaScript.svg" width="40"/>
+  <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Bootstrap.svg" width="40"/>
+</p>
+
+- HTML5, CSS3, JavaScript (ES6)
+- Bootstrap 5
+- Responsive and mobile-friendly UI
+
+### ☁️ Backend (Serverless)
+<p>
+  <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/AWS-Light.svg" width="40"/>
+  <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/NodeJS-Light.svg" width="40"/>
+</p>
+
+- AWS Lambda (Node.js)
+- Amazon API Gateway
+- Event-driven architecture
+
+### 🗄️ Database
+<p>
+  <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/DynamoDB-Light.svg" width="40"/>
+</p>
+
+- Amazon DynamoDB (NoSQL)
+
+### 🚀 Hosting & Security
+<p>
+  <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/AWS-Light.svg" width="40"/>
+</p>
+
+- Amazon S3 (Static Website Hosting)
+- AWS IAM (Identity & Access Management)
+
+---
+
+## 🏗️ Architecture Overview
+Browser (Frontend)
+|
+v
+Amazon S3 (Static Website)
+|
+v
+API Gateway
+|
+v
+AWS Lambda (Business Logic)
+|
+v
+Amazon DynamoDB (Data Storage)
+
+
+✔ Fully serverless  
+✔ Scalable  
+✔ Pay-per-use  
+✔ Minimal operational overhead  
+
+---
 
 ## 📁 Project Structure
-
 /Inventario
 ├── index.html
 ├── login.html
@@ -31,21 +99,14 @@ A fully serverless inventory management system designed for rental businesses. B
 ├── styles.css
 └── Image/
 
+---
 
-## 🔧 Setup Instructions
+## ⚙️ Setup Instructions
 
-1. Clone this repository:
+1. Clone the repository:
    ```bash
    git clone https://github.com/Mauricio-Castro-Code/crystal-inventory.git
-Host frontend on Amazon S3 (static website).
 
-Deploy AWS Lambda functions and connect them using API Gateway.
 
-Configure IAM roles to securely manage Lambda and DynamoDB access.
 
-Adjust API endpoints in scripts.js if needed.
 
-📌 Notes
-The project is tailored to the needs of a real equipment rental business in Mexico.
-
-Easily extendable to include authentication, PDF exports, analytics, and more.
